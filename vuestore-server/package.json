@@ -1,0 +1,23 @@
+{
+  "name": "vuestore-server",
+  "version": "1.0.0",
+  "description": "vuestore server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon app.js"
+  },
+  "keywords": [
+    "node.js",
+    "express.js",
+    "mongodb",
+    "rest",
+    "api"
+  ],
+  "author": "fajar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^5.13.22"
+  }
+}
